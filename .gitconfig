@@ -1,0 +1,5 @@
+[commit]
+template = ~/.gitmessage.txt
+
+[core]
+ignorecase = false
