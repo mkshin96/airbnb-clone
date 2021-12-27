@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  app:
+    image: airbnb-clone
+    container_name: airbnb-app
+    ports:
+      - 8080:8080
+  db:
+    image: postgres:14.1
+    container_name: airbnb-db
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=postgres
+
+

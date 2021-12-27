@@ -1,0 +1,10 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://airbnb-db:5432/postgres
+    username: postgres
+    password: postgres
