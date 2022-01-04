@@ -32,8 +32,11 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
 
     //postgresql
-    implementation("org.postgresql:postgresql")
+    implementation "org.postgresql:postgresql"
 
+    //fixture monkey
+    testImplementation "com.navercorp.fixturemonkey:fixture-monkey-starter:0.3.1"
+    testImplementation "com.navercorp.fixturemonkey:fixture-monkey-jackson:0.3.1"
 }
 
 test {
